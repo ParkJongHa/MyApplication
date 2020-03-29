@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <com.example.myapplication.circleslider.CircleSelector
+        android:id="@+id/csta_cs"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        app:border_thickness="3dp"
+        app:border_color="#0099FF"
+        app:border_gradient_colors="#0099FF;#FF9900"
+        app:thumb_size="20dp"
+        app:thumb_image="@drawable/circle_selector_button"
+        />
+
+    <TextView
+        android:id="@+id/csta_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="setValue 739"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_setValue_739"
+        />
+
+    <Button
+        android:text="getValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_getValue"
+        />
+
+</LinearLayout>
+
+

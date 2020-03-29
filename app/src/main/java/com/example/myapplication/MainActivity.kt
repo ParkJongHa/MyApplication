@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.myapplication.circleslider.CircleSelectorTestActivity
 import com.example.myapplication.topdrawer.TopDrawerTestActivity
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,10 @@ class MainActivity : AppCompatActivity() {
 
     fun onClick_topDrawer(ignore: View) {
         startActivity(Intent(this, TopDrawerTestActivity::class.java))
+    }
+
+    fun onClick_circleSelector(ignore: View) {
+        startActivity(Intent(this, CircleSelectorTestActivity::class.java))
     }
 
 }
