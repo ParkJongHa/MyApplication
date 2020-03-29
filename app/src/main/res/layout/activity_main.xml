@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <Button android:text="onClick_fastScroll" android:onClick="onClick_fastScroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:padding="10dp"/>
+
         <Button android:text="onClick_topDrawer" android:onClick="onClick_topDrawer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:padding="10dp"/>
 
         <Button android:text="onClick_circleSelector" android:onClick="onClick_circleSelector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:padding="10dp"/>
