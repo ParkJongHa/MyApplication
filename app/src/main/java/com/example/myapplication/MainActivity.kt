@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.example.myapplication.circleslider.CircleSelectorTestActivity
 import com.example.myapplication.fastscroll.FastScrollTestActivity
+import com.example.myapplication.snackbar.SnackBarTestActivity
 import com.example.myapplication.topdrawer.TopDrawerTestActivity
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +26,10 @@ class MainActivity : AppCompatActivity() {
 
     fun onClick_fastScroll(ignore: View) {
         startActivity(Intent(this, FastScrollTestActivity::class.java))
+    }
+
+    fun onClick_snackbar(ignore: View) {
+        startActivity(Intent(this, SnackBarTestActivity::class.java))
     }
 
 }
